@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#root{
+    padding: 40px 8%;
+}
+#container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+}
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px;
+    grid-auto-rows:300px ;
+    width: 100%;
+    gap: 20px;
+}
